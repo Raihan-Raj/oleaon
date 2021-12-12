@@ -1,0 +1,213 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .section-title h3 {
+        font-weight: bolder;
+        margin-bottom: 0;
+    }
+    
+    .hr-style {
+        border: 5px dotted white;
+        border-bottom: none;
+        width: 100px;
+    }
+    /* header start  */
+    /* header {
+    background-image: url("https://www.viewsonic.com/wp/wp-content/uploads/2014/07/New-Building.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+    
+    .navbar {
+        padding: 1% 10%;
+        background-color: black;
+    }
+    
+    .navbar-icon {
+        color: white;
+    }
+    
+    .navbar-brand img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .nav-link {
+        color: white;
+        margin: 10px;
+        border-radius: 5px;
+        transition: .4s;
+        font-style: bolder;
+    }
+    
+    .nav-link:hover {
+        background: #2980b9;
+        color: white;
+        transform: scale(1.1);
+    }
+    
+    .btn {
+        background: black;
+    }
+    
+    .gradient-custom-2 {
+        /* fallback for old browsers */
+        background: #fccb90;
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+        .gradient-form {
+            height: 100vh !important;
+        }
+    }
+    
+    @media (min-width: 769px) {
+        .gradient-custom-2 {
+            border-top-right-radius: .3rem;
+            border-bottom-right-radius: .3rem;
+        }
+    }
+    /*
+.bgimg {
+    background-image: url('../img/bg.jpg');
+    bottom: 10px;
+    height: 100%;
+    width: 300%;
+}
+*/
+    /* header ends  */
+    /* about-me starts */
+    
+    #about-me {
+        padding: 2% 10%;
+        background: black;
+        color: white;
+    }
+    
+    #about-me p {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+        font-weight: light;
+    }
+    
+    #about-me a {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .achieve-desc span {
+        font-weight: 700 !important;
+    }
+    
+    .star i {
+        width: 20px;
+    }
+    /* about-me ends */
+    
+    form {
+        border: 1px solid #1A33FF;
+        background: #ecf5fc;
+        padding: 40px 50px 45px;
+    }
+    
+    .form-control:focus {
+        border-color: #000;
+        box-shadow: none;
+    }
+    
+    label {
+        font-weight: 600;
+    }
+    
+    .error {
+        color: red;
+        font-weight: 400;
+        display: block;
+        padding: 6px 0;
+        font-size: 14px;
+    }
+    /* feedback start  */
+    
+    #feedback {
+        padding: 5%;
+        background: black;
+    }
+    /* feedback end */
+    
+    .multi-item-carousel .carousel-inner>.item {
+        transition: 500ms ease-in-out left;
+    }
+    
+    .multi-item-carousel .carousel-inner .active.left {
+        left: -33%;
+    }
+    
+    .multi-item-carousel .carousel-inner .active.right {
+        left: 33%;
+    }
+    
+    .multi-item-carousel .carousel-inner .next {
+        left: 33%;
+    }
+    
+    .multi-item-carousel .carousel-inner .prev {
+        left: -33%;
+    }
+    
+    @media all and (transform-3d),
+    (-webkit-transform-3d) {
+        .multi-item-carousel .carousel-inner>.item {
+            transition: 500ms ease-in-out left;
+            transition: 500ms ease-in-out all;
+            backface-visibility: visible;
+            transform: none !important;
+        }
+    }
+    
+    .carusel {
+        background-color: red;
+    }
+    
+    .carousel-inner .active.left {
+        left: -25%;
+    }
+    
+    .carousel-inner .next {
+        left: 25%;
+    }
+    
+    .carousel-inner .prev {
+        left: -25%;
+    }
+    
+    .carousel-control {
+        width: 4%;
+    }
+    
+    .carousel-control.left,
+    .carousel-control.right {
+        margin-left: 15px;
+        background-image: none;
+    }
